@@ -16,6 +16,7 @@ class AgglomerativeClustering:
         for i in range(self.initial_k):
             j = i * d
             groups[(j, j, j)] = []
+            # groups[tuple([j]*points.shape[1])] = []
         for i, p in enumerate(points):
             # if i%100000 == 0:
             #     print('processing pixel:', i)
