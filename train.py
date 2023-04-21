@@ -7,7 +7,7 @@ from src import model
 
 def main():
     # pre-processing
-    img_path = 'C:\\Users\\Harsh Pal\\Desktop\\Sem_10\\GNR602\\Project\\GNR602-2023-Project\\images\\samp.jpg'
+    img_path = 'C:\\Users\\Harsh Pal\\Desktop\\Sem_10\\GNR602\\Project\\GNR602-2023-Project\\images\\00128.jpg'
     img = mpimg.imread(img_path)
     pixels = img.reshape((-1,3))
 
